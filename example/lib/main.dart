@@ -30,13 +30,14 @@ class _MyAppState extends State<MyApp> {
           title: new Text('Plugin example app'),
         ),
         body: new Center(
-          child: new Column(children: [
-            new Text('Running on:'),
+          child: new Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
             new RaisedButton(
               onPressed: () {
                 UMengAnalytics.logEvent("hello");
               },
-              child: new Text('Running on:'),
+              child: new Text('Running on: hello'),
             ),
           ]),
         ),
