@@ -6,7 +6,14 @@ Flutter plugin for [umeng:analytics](http://mobile.umeng.com/analytics)
 
 ### Init
 ```dart
-UMengAnalytics.init('5a20cc45f43e48512000015d',
+import 'package:platform/platform.dart';
+
+final Platform platform = const LocalPlatform();
+if (platform.isAndroid)
+  UMengAnalytics.init('Android AppKey',
+          policy: Policy.BATCH, encrypt: true, reportCrash: false);
+else if (platform.isIOS)
+  UMengAnalytics.init('iOS AppKey',
           policy: Policy.BATCH, encrypt: true, reportCrash: false);
 ```
 
