@@ -1,0 +1,569 @@
+2018-01-03 12:27:23 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f7f28e77c80; archive(resolved)='<IDEArchive: 0x7f7f275be320>', distributionTask(resolved)='0', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team(resolved)='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f7f28e77c80; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f7f28eaff10; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f2ac2fbf0; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f28e440c0; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f28ee2a10; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f2aa7bb80; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f2af82570; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f41351a50; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f2ac3bd70; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f2ab98cd0; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='<IDEDistributionMethodiOSAppStoreValidation: 0x7f7f414520a0>', team='<IDEProvisioningBasicTeam 0x7f7f296a3ad0: teamID: 6552Q2S52G, teamName: Chengyu Ji>'>
+	<IDEDistributionContext: 0x7f7f421c6390; archive = '<IDEArchive: 0x7f7f275be320>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f7f28e77c80>
+2018-01-03 12:27:23 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-01-03 12:27:23 +0000  Processing step: IDEDistributionCopyItemStep
+2018-01-03 12:27:23 +0000  Running /usr/bin/ditto '-V' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app'
+2018-01-03 12:27:23 +0000  >>> Copying /Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app 
+2018-01-03 12:27:23 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-03 12:27:23 +0000  2153 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-03 12:27:23 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-03 12:27:24 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-01-03 12:27:24 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-03 12:27:24 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-03 12:27:24 +0000  1790 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-03 12:27:24 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-01-03 12:27:24 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-01-03 12:27:24 +0000  16567 bytes for ./_CodeSignature/CodeResources
+2018-01-03 12:27:24 +0000  copying file ./Generated.xcconfig ... 
+2018-01-03 12:27:24 +0000  453 bytes for ./Generated.xcconfig
+2018-01-03 12:27:24 +0000  copying file ./app.flx ... 
+2018-01-03 12:27:24 +0000  277893 bytes for ./app.flx
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/AssetManifest.json ... 
+2018-01-03 12:27:24 +0000  561 bytes for ./flutter_assets/AssetManifest.json
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/images/woman-teacher.png ... 
+2018-01-03 12:27:24 +0000  69076 bytes for ./flutter_assets/images/woman-teacher.png
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/images/United States of America(USA).png ... 
+2018-01-03 12:27:24 +0000  1101 bytes for ./flutter_assets/images/United States of America(USA).png
+copying file ./flutter_assets/images/Hong Kong.png ... 
+2018-01-03 12:27:24 +0000  1748 bytes for ./flutter_assets/images/Hong Kong.png
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/images/Australia.png ... 
+2018-01-03 12:27:24 +0000  2623 bytes for ./flutter_assets/images/Australia.png
+copying file ./flutter_assets/images/United Kingdom(Great Britain).png ... 
+2018-01-03 12:27:24 +0000  4613 bytes for ./flutter_assets/images/United Kingdom(Great Britain).png
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/images/New Zealand.png ... 
+2018-01-03 12:27:24 +0000  2182 bytes for ./flutter_assets/images/New Zealand.png
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/FontManifest.json ... 
+2018-01-03 12:27:24 +0000  289 bytes for ./flutter_assets/FontManifest.json
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/LICENSE ... 
+2018-01-03 12:27:24 +0000  938029 bytes for ./flutter_assets/LICENSE
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
+97680 bytes for ./flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+copying file ./flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
+2018-01-03 12:27:24 +0000  134640 bytes for ./flutter_assets/fonts/MaterialIcons-Regular.ttf
+2018-01-03 12:27:24 +0000  copying file ./flutter_assets/data/claim.md ... 
+2018-01-03 12:27:24 +0000  2167 bytes for ./flutter_assets/data/claim.md
+copying file ./flutter_assets/data/privacy.md ... 
+2018-01-03 12:27:24 +0000  5606 bytes for ./flutter_assets/data/privacy.md
+2018-01-03 12:27:24 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-01-03 12:27:24 +0000  360 bytes for ./archived-expanded-entitlements.xcent
+2018-01-03 12:27:24 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-01-03 12:27:24 +0000  1883 bytes for ./AppIcon20x20@3x.png
+2018-01-03 12:27:24 +0000  copying file ./Frameworks/Flutter.framework/icudtl.dat ... 
+2018-01-03 12:27:24 +0000  6623360 bytes for ./Frameworks/Flutter.framework/icudtl.dat
+2018-01-03 12:27:24 +0000  copying file ./Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2488 bytes for ./Frameworks/Flutter.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Flutter.framework/Flutter ... 
+2018-01-03 12:27:24 +0000  12488608 bytes for ./Frameworks/Flutter.framework/Flutter
+copying file ./Frameworks/Flutter.framework/Info.plist ... 
+2018-01-03 12:27:24 +0000  867 bytes for ./Frameworks/Flutter.framework/Info.plist
+copying file ./Frameworks/App.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/App.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/App.framework/App ... 
+2018-01-03 12:27:24 +0000  13754880 bytes for ./Frameworks/App.framework/App
+copying file ./Frameworks/App.framework/Info.plist ... 
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /usr/bin/ditto exited with 0
+
+2018-01-03 12:27:24 +0000  863 bytes for ./Frameworks/App.framework/Info.plist
+copying file ./Info.plist ... 
+1507 bytes for ./Info.plist
+copying file ./Runner ... 
+960192 bytes for ./Runner
+copying file ./AppIcon20x20@2x.png ... 
+1304 bytes for ./AppIcon20x20@2x.png
+copying file ./Debug.xcconfig ... 
+30 bytes for ./Debug.xcconfig
+copying file ./AppIcon29x29.png ... 
+1699 bytes for ./AppIcon29x29.png
+copying file ./AppIcon60x60@3x.png ... 
+13006 bytes for ./AppIcon60x60@3x.png
+copying file ./AppFrameworkInfo.plist ... 
+423 bytes for ./AppFrameworkInfo.plist
+copying file ./AppIcon29x29@3x.png ... 
+6179 bytes for ./AppIcon29x29@3x.png
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./Assets.car ... 
+253624 bytes for ./Assets.car
+copying file ./embedded.mobileprovision ... 
+10889 bytes for ./embedded.mobileprovision
+copying file ./AppIcon40x40@2x.png ... 
+5712 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+8668 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon57x57.png ... 
+3829 bytes for ./AppIcon57x57.png
+copying file ./AppIcon57x57@2x.png ... 
+8300 bytes for ./AppIcon57x57@2x.png
+copying file ./AppIcon29x29@2x.png ... 
+4005 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon60x60@2x.png ... 
+8668 bytes for ./AppIcon60x60@2x.png
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-01-03 12:27:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f415e0aa0 'io.flutter.flutter.app' '<DVTFilePath:0x7f7f2a88c110:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>'>
+2018-01-03 12:27:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f2ac40430 'io.flutter.flutter' '<DVTFilePath:0x7f7f2ac35fb0:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>'>
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-01-03 12:27:24 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-01-03 12:27:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionSymbolsStep
+2018-01-03 12:27:24 +0000  Processing symbols for App.framework
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/App.framework' '--link-dest' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  5 files to consider
+2018-01-03 12:27:24 +0000  App.framework/
+2018-01-03 12:27:24 +0000  App.framework/_CodeSignature/
+2018-01-03 12:27:24 +0000  
+sent 191 bytes  received 32 bytes  446.00 bytes/sec
+total size is 13.12M  speedup is 61694.82
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 0
+
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  7 files to consider
+2018-01-03 12:27:24 +0000  ./
+2018-01-03 12:27:24 +0000  Runner.app.dSYM/
+2018-01-03 12:27:24 +0000  Runner.app.dSYM/Contents/
+Runner.app.dSYM/Contents/Resources/
+Runner.app.dSYM/Contents/Resources/DWARF/
+2018-01-03 12:27:24 +0000  
+sent 221 bytes  received 50 bytes  542.00 bytes/sec
+2018-01-03 12:27:24 +0000  total size is 1.09M  speedup is 4220.22
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 0
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Symbols' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/App.framework/App'
+2018-01-03 12:27:24 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/App.framework/App [arm64, 0.034458 seconds]:
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Processing symbols for Flutter.framework
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/Flutter.framework' '--link-dest' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  6 files to consider
+2018-01-03 12:27:24 +0000  Flutter.framework/
+2018-01-03 12:27:24 +0000  Flutter.framework/_CodeSignature/
+2018-01-03 12:27:24 +0000  
+sent 245 bytes  received 32 bytes  554.00 bytes/sec
+2018-01-03 12:27:24 +0000  total size is 18.23M  speedup is 69008.39
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 0
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  7 files to consider
+2018-01-03 12:27:24 +0000  ./
+2018-01-03 12:27:24 +0000  Runner.app.dSYM/
+Runner.app.dSYM/Contents/
+Runner.app.dSYM/Contents/Resources/
+Runner.app.dSYM/Contents/Resources/DWARF/
+2018-01-03 12:27:24 +0000  
+sent 233 bytes  received 62 bytes  590.00 bytes/sec
+2018-01-03 12:27:24 +0000  total size is 1.09M  speedup is 3876.88
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 0
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Symbols' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Flutter.framework/Flutter'
+2018-01-03 12:27:24 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Flutter.framework/Flutter [arm64, 0.122775 seconds]:
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Processing symbols for Runner.app
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app' '--link-dest' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  65 files to consider
+2018-01-03 12:27:24 +0000  Runner.app/
+2018-01-03 12:27:24 +0000  Runner.app/Base.lproj/
+Runner.app/Base.lproj/LaunchScreen.storyboardc/
+Runner.app/Base.lproj/Main.storyboardc/
+2018-01-03 12:27:24 +0000  Runner.app/Frameworks/
+Runner.app/Frameworks/App.framework/
+Runner.app/Frameworks/App.framework/_CodeSignature/
+Runner.app/Frameworks/Flutter.framework/
+Runner.app/Frameworks/Flutter.framework/_CodeSignature/
+Runner.app/_CodeSignature/
+Runner.app/flutter_assets/
+Runner.app/flutter_assets/data/
+Runner.app/flutter_assets/fonts/
+Runner.app/flutter_assets/images/
+Runner.app/flutter_assets/packages/
+Runner.app/flutter_assets/packages/cupertino_icons/
+Runner.app/flutter_assets/packages/cupertino_icons/assets/
+2018-01-03 12:27:24 +0000  
+sent 1.96K bytes  received 122 bytes  4.17K bytes/sec
+total size is 34.07M  speedup is 16739.26
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 0
+2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '--link-dest' '/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/dSYMs/' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd'
+2018-01-03 12:27:24 +0000  building file list ... 
+2018-01-03 12:27:24 +0000   0 files...2018-01-03 12:27:24 +0000  7 files to consider
+2018-01-03 12:27:24 +0000  ./
+2018-01-03 12:27:24 +0000  Runner.app.dSYM/
+Runner.app.dSYM/Contents/
+Runner.app.dSYM/Contents/Resources/
+Runner.app.dSYM/Contents/Resources/DWARF/
+2018-01-03 12:27:24 +0000  
+sent 233 bytes  received 62 bytes  590.00 bytes/sec
+2018-01-03 12:27:24 +0000  total size is 1.09M  speedup is 3876.88
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /usr/bin/rsync exited with 02018-01-03 12:27:24 +0000  
+
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Symbols' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Runner.app/Runner'
+2018-01-03 12:27:24 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Runner.app/Runner [arm64, 0.032096 seconds]:
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  2018-01-03 12:27:24 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-01-03 12:27:24 +0000  
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionAppThinningStep
+2018-01-03 12:27:24 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionODRStep
+2018-01-03 12:27:24 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-01-03 12:27:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f415e0aa0 'io.flutter.flutter.app' '<DVTFilePath:0x7f7f2a88c110:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>'>
+2018-01-03 12:27:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f2ac40430 'io.flutter.flutter' '<DVTFilePath:0x7f7f2ac35fb0:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>'>
+2018-01-03 12:27:24 +0000  Running /usr/bin/xattr '-crs' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app'
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  /usr/bin/xattr exited with 0
+2018-01-03 12:27:25 +0000  
+
+2018-01-03 12:27:25 +0000  Processing step: IDEDistributionCodesignStep
+2018-01-03 12:27:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f7f415e0aa0 'io.flutter.flutter.app' '<DVTFilePath:0x7f7f2a88c110:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f7f28b94950>: {
+}
+2018-01-03 12:27:25 +0000  Entitlements for <IDEDistributionItem: 0x7f7f415e0aa0 'io.flutter.flutter.app' '<DVTFilePath:0x7f7f2a88c110:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>'>: {
+}
+2018-01-03 12:27:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f415e0aa0 'io.flutter.flutter.app' '<DVTFilePath:0x7f7f2a88c110:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>'> to: /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsKwAlbp
+2018-01-03 12:27:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3662617ED2C80C5D8D8882078777641619470285' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsKwAlbp' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/App.framework'
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/App.framework: replacing existing signature
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/App.framework: signed bundle with Mach-O thin (arm64) [io.flutter.flutter.app]
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  /usr/bin/codesign exited with 0
+
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f7f2ac40430 'io.flutter.flutter' '<DVTFilePath:0x7f7f2ac35fb0:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f7f419ce0e0>: {
+}
+2018-01-03 12:27:25 +0000  Entitlements for <IDEDistributionItem: 0x7f7f2ac40430 'io.flutter.flutter' '<DVTFilePath:0x7f7f2ac35fb0:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>'>: {
+}
+2018-01-03 12:27:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f2ac40430 'io.flutter.flutter' '<DVTFilePath:0x7f7f2ac35fb0:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>'> to: /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsvpO8Un
+2018-01-03 12:27:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3662617ED2C80C5D8D8882078777641619470285' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsvpO8Un' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/Flutter.framework'
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/Flutter.framework: replacing existing signature
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app/Frameworks/Flutter.framework: signed bundle with Mach-O universal (arm64) [io.flutter.flutter]
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  
+
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  /usr/bin/codesign exited with 0
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  
+
+2018-01-03 12:27:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f7f296c30d0 'pedia.offer' '<DVTFilePath:0x7f7f2949eb30:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f7f28b56490>: {
+}
+2018-01-03 12:27:25 +0000  Entitlements for <IDEDistributionItem: 0x7f7f296c30d0 'pedia.offer' '<DVTFilePath:0x7f7f2949eb30:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app'>'>: {
+    "application-identifier" = "6552Q2S52G.pedia.offer";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 6552Q2S52G;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "6552Q2S52G.pedia.offer"
+    );
+}
+2018-01-03 12:27:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f296c30d0 'pedia.offer' '<DVTFilePath:0x7f7f2949eb30:'/Users/odd/Library/Developer/Xcode/Archives/2018-01-03/Runner 3-1-2018, 8.24 PM.xcarchive/Products/Applications/Runner.app'>'> to: /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsFPNGva
+2018-01-03 12:27:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3662617ED2C80C5D8D8882078777641619470285' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/entitlementsFPNGva' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app'
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app: replacing existing signature
+2018-01-03 12:27:25 +0000  /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root/Payload/Runner.app: signed app bundle with Mach-O thin (arm64) [pedia.offer]
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  /usr/bin/codesign exited with 0
+
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  Processing step: IDEDistributionStreamingZipItemStep
+
+2018-01-03 12:27:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-03 12:27:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-03 12:27:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-03 12:27:25 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-01-03 12:27:25 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Symbols' '--link-dest' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root'
+2018-01-03 12:27:25 +0000  building file list ... 
+2018-01-03 12:27:25 +0000   0 files...2018-01-03 12:27:25 +0000  4 files to consider
+2018-01-03 12:27:25 +0000  Symbols/
+2018-01-03 12:27:25 +0000  
+sent 244 bytes  received 26 bytes  540.00 bytes/sec
+2018-01-03 12:27:25 +0000  total size is 4.38M  speedup is 17016.09
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  
+
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  2018-01-03 12:27:25 +0000  /usr/bin/rsync exited with 0
+
+2018-01-03 12:27:25 +0000  
+2018-01-03 12:27:25 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root' '/var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Packages/Runner.ipa'
+2018-01-03 12:27:25 +0000  >>> Copying /var/folders/vb/1d3369114yz78xwy_83q3wn80000gn/T/XcodeDistPipeline.6nd/Root 
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-03 12:27:25 +0000  2153 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-03 12:27:25 +0000  258 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-03 12:27:25 +0000  923 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-03 12:27:25 +0000  1790 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-03 12:27:25 +0000  258 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/Info.plist
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/_CodeSignature/CodeResources ... 
+2018-01-03 12:27:25 +0000  16567 bytes for ./Payload/Runner.app/_CodeSignature/CodeResources
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/Generated.xcconfig ... 
+453 bytes for ./Payload/Runner.app/Generated.xcconfig
+copying file ./Payload/Runner.app/app.flx ... 
+2018-01-03 12:27:25 +0000  277893 bytes for ./Payload/Runner.app/app.flx
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/AssetManifest.json ... 
+2018-01-03 12:27:25 +0000  561 bytes for ./Payload/Runner.app/flutter_assets/AssetManifest.json
+copying file ./Payload/Runner.app/flutter_assets/images/woman-teacher.png ... 
+2018-01-03 12:27:25 +0000  69076 bytes for ./Payload/Runner.app/flutter_assets/images/woman-teacher.png
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/images/United States of America(USA).png ... 
+1101 bytes for ./Payload/Runner.app/flutter_assets/images/United States of America(USA).png
+copying file ./Payload/Runner.app/flutter_assets/images/Hong Kong.png ... 
+2018-01-03 12:27:25 +0000  1748 bytes for ./Payload/Runner.app/flutter_assets/images/Hong Kong.png
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/images/Australia.png ... 
+2018-01-03 12:27:25 +0000  2623 bytes for ./Payload/Runner.app/flutter_assets/images/Australia.png
+copying file ./Payload/Runner.app/flutter_assets/images/United Kingdom(Great Britain).png ... 
+2018-01-03 12:27:25 +0000  4613 bytes for ./Payload/Runner.app/flutter_assets/images/United Kingdom(Great Britain).png
+copying file ./Payload/Runner.app/flutter_assets/images/New Zealand.png ... 
+2018-01-03 12:27:25 +0000  2182 bytes for ./Payload/Runner.app/flutter_assets/images/New Zealand.png
+copying file ./Payload/Runner.app/flutter_assets/FontManifest.json ... 
+2018-01-03 12:27:25 +0000  289 bytes for ./Payload/Runner.app/flutter_assets/FontManifest.json
+copying file ./Payload/Runner.app/flutter_assets/LICENSE ... 
+2018-01-03 12:27:25 +0000  938029 bytes for ./Payload/Runner.app/flutter_assets/LICENSE
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
+2018-01-03 12:27:25 +0000  97680 bytes for ./Payload/Runner.app/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
+2018-01-03 12:27:25 +0000  134640 bytes for ./Payload/Runner.app/flutter_assets/fonts/MaterialIcons-Regular.ttf
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/flutter_assets/data/claim.md ... 
+2018-01-03 12:27:25 +0000  2167 bytes for ./Payload/Runner.app/flutter_assets/data/claim.md
+copying file ./Payload/Runner.app/flutter_assets/data/privacy.md ... 
+2018-01-03 12:27:25 +0000  5606 bytes for ./Payload/Runner.app/flutter_assets/data/privacy.md
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/archived-expanded-entitlements.xcent ... 
+360 bytes for ./Payload/Runner.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Runner.app/AppIcon20x20@3x.png ... 
+2018-01-03 12:27:25 +0000  1883 bytes for ./Payload/Runner.app/AppIcon20x20@3x.png
+2018-01-03 12:27:25 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/icudtl.dat ... 
+2018-01-03 12:27:26 +0000  6623360 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/icudtl.dat
+2018-01-03 12:27:26 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2488 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Flutter ... 
+2018-01-03 12:27:26 +0000  12488912 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Flutter
+2018-01-03 12:27:26 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Info.plist ... 
+867 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Info.plist
+copying file ./Payload/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources
+copying file ./Payload/Runner.app/Frameworks/App.framework/App ... 
+2018-01-03 12:27:27 +0000  13755184 bytes for ./Payload/Runner.app/Frameworks/App.framework/App
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/Info.plist ... 
+863 bytes for ./Payload/Runner.app/Frameworks/App.framework/Info.plist
+copying file ./Payload/Runner.app/Info.plist ... 
+1507 bytes for ./Payload/Runner.app/Info.plist
+copying file ./Payload/Runner.app/Runner ... 
+2018-01-03 12:27:27 +0000  960224 bytes for ./Payload/Runner.app/Runner
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/AppIcon20x20@2x.png ... 
+1304 bytes for ./Payload/Runner.app/AppIcon20x20@2x.png
+copying file ./Payload/Runner.app/Debug.xcconfig ... 
+2018-01-03 12:27:27 +0000  30 bytes for ./Payload/Runner.app/Debug.xcconfig
+copying file ./Payload/Runner.app/AppIcon29x29.png ... 
+2018-01-03 12:27:27 +0000  1699 bytes for ./Payload/Runner.app/AppIcon29x29.png
+copying file ./Payload/Runner.app/AppIcon60x60@3x.png ... 
+2018-01-03 12:27:27 +0000  13006 bytes for ./Payload/Runner.app/AppIcon60x60@3x.png
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/AppFrameworkInfo.plist ... 
+423 bytes for ./Payload/Runner.app/AppFrameworkInfo.plist
+copying file ./Payload/Runner.app/AppIcon29x29@3x.png ... 
+2018-01-03 12:27:27 +0000  6179 bytes for ./Payload/Runner.app/AppIcon29x29@3x.png
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/PkgInfo ... 
+8 bytes for ./Payload/Runner.app/PkgInfo
+copying file ./Payload/Runner.app/Assets.car ... 
+2018-01-03 12:27:27 +0000  253624 bytes for ./Payload/Runner.app/Assets.car
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/embedded.mobileprovision ... 
+2018-01-03 12:27:27 +0000  7483 bytes for ./Payload/Runner.app/embedded.mobileprovision
+copying file ./Payload/Runner.app/AppIcon40x40@2x.png ... 
+2018-01-03 12:27:27 +0000  5712 bytes for ./Payload/Runner.app/AppIcon40x40@2x.png
+copying file ./Payload/Runner.app/AppIcon40x40@3x.png ... 
+2018-01-03 12:27:27 +0000  8668 bytes for ./Payload/Runner.app/AppIcon40x40@3x.png
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/AppIcon57x57.png ... 
+3829 bytes for ./Payload/Runner.app/AppIcon57x57.png
+2018-01-03 12:27:27 +0000  copying file ./Payload/Runner.app/AppIcon57x57@2x.png ... 
+2018-01-03 12:27:27 +0000  8300 bytes for ./Payload/Runner.app/AppIcon57x57@2x.png
+copying file ./Payload/Runner.app/AppIcon29x29@2x.png ... 
+2018-01-03 12:27:27 +0000  4005 bytes for ./Payload/Runner.app/AppIcon29x29@2x.png
+copying file ./Payload/Runner.app/AppIcon60x60@2x.png ... 
+2018-01-03 12:27:27 +0000  8668 bytes for ./Payload/Runner.app/AppIcon60x60@2x.png
+2018-01-03 12:27:27 +0000  copying file ./Symbols/8115F938-4C0A-339A-AC12-ED73CD0C617A.symbols ... 
+2018-01-03 12:27:27 +0000  348200 bytes for ./Symbols/8115F938-4C0A-339A-AC12-ED73CD0C617A.symbols
+2018-01-03 12:27:27 +0000  copying file ./Symbols/11542E28-228C-361C-AE56-3EADB45D381B.symbols ... 
+2018-01-03 12:27:27 +0000  3534192 bytes for ./Symbols/11542E28-228C-361C-AE56-3EADB45D381B.symbols
+2018-01-03 12:27:27 +0000  copying file ./Symbols/4A4E30C9-1063-373B-AE44-75426EB917C8.symbols ... 
+2018-01-03 12:27:27 +0000  711952 bytes for ./Symbols/4A4E30C9-1063-373B-AE44-75426EB917C8.symbols
+2018-01-03 12:27:27 +0000  2018-01-03 12:27:27 +0000  
+
+2018-01-03 12:27:27 +0000  /usr/bin/ditto exited with 02018-01-03 12:27:27 +0000  
+
+2018-01-03 12:27:27 +0000  
+2018-01-03 12:27:27 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-01-03 12:27:27 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
