@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '26.0.3'
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 16
@@ -34,6 +34,6 @@ android {
     }
 
     dependencies {
-        api  'com.umeng.analytics:analytics:latest.integration'
+        // api  'com.umeng.analytics:analytics:latest.integration'
     }
 }

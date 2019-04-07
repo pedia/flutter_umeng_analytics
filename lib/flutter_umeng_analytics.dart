@@ -32,20 +32,20 @@ class UMengAnalytics {
   }
 
   // page view
-  static Future<Null> logPageView(String name, int seconds) {
+  static Future<Null> logPageView(String name, int seconds) async {
     _channel.invokeMethod("logPageView", {"name": name, "seconds": seconds});
   }
 
-  static Future<Null> beginPageView(String name) {
+  static Future<Null> beginPageView(String name) async {
     _channel.invokeMethod("beginPageView", {"name": name});
   }
 
-  static Future<Null> endPageView(String name) {
+  static Future<Null> endPageView(String name) async {
     _channel.invokeMethod("endPageView", {"name": name});
   }
 
   // event
-  static Future<Null> logEvent(String name, {String label}) {
+  static Future<Null> logEvent(String name, {String label}) async{
     _channel.invokeMethod("logEvent", {"label": label});
   }
 }
